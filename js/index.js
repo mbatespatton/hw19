@@ -1,5 +1,10 @@
+
+
+
+
 $(document).ready(function(){
-    $("button").click(function(){
-        alert("Page Under Construction, check back later!");
+    $(".mobile_menu").click(function() {
+        $('.mobile_hamb_menu').toggleClass('invisible');
+        return false;
     });
 });
